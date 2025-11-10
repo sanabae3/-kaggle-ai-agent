@@ -1,0 +1,7 @@
+name: helpful_assistant
+model: gemini-2.5-flash  # <-- CHANGED MODEL NAME
+description: A simple agent that answers general questions.
+instruction: |
+  You are a helpful assistant. Keep answers short, clear, and accurate.
+tools:
+  - name: google_search
