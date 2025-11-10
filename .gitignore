@@ -1,0 +1,26 @@
+# 🧠 Python venv and cache
+.venv/
+__pycache__/
+*.pyc
+
+# 📊 Jupyter checkpoint files
+.ipynb_checkpoints/
+
+# 🔐 Secrets & environment files
+.env
+
+# 📁 OS / IDE clutter
+.DS_Store
+*.log
+*.tmp
+Thumbs.db
+
+# 🧱 Build artifacts
+*.egg-info/
+dist/
+build/
+
+# 📚 VSCode or IDE settings (optional)
+.vscode/
+.idea/
+
